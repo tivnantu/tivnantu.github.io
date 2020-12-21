@@ -3,23 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: tivnan
+subtitle: "tivnan's code & develop blog"
+description: '这里是tivnan的开发、代码、学习、玩耍的个人空间'
+keywords: [后端, Java, 项目管理, 软件工程, 代码, code]
+author: tivnan
+language: zh-CN
+timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: http://blog.tivnan.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -98,9 +98,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: "git@github.com:tivnan/tivnan.github.io.git"
+  branch: 'master'

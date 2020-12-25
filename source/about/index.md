@@ -2,6 +2,7 @@
 title: about
 date: 2020-12-21 22:03:26
 layout: about
+lazyload: true
 ---
 
 ## About

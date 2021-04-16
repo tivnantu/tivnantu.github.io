@@ -2,8 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 updated: {{ date }}
-keywords: 
-description:
+# keywords: 
+# description:
 index_img:
 banner_img:
 tags:

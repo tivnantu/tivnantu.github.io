@@ -133,3 +133,10 @@ tags:
 - `categories`：指定类目
 - `date`：指定文件创建时间
 - `updated`：指定文章最后更新时间
+
+
+- secondary用于展示更新日期
+
+- info用于随笔
+- success用于转载
+- primary用于项目

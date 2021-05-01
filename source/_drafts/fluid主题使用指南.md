@@ -138,5 +138,5 @@ tags:
 - secondary用于展示更新日期
 
 - info用于随笔
-- success用于转载
+- success用于转载、阅读
 - primary用于项目

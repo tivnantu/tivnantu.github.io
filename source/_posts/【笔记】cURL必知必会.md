@@ -4,7 +4,7 @@ description: curl命令行用法大览
 index_img: /image/cURL必知必会/cURL必知必会.jpg
 banner_img: /image/cURL必知必会/curl.png
 tags:
-  - 工具
+  - 工具详解
 categories: 笔记
 abbrlink: 9f5d61d7
 date: 2021-12-29 11:24:01

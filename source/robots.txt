@@ -9,4 +9,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: http://blog.tivnan.cn/googlesitemap.xml
+Sitemap: https://tivnantu.github.io/googlesitemap.xml

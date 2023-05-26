@@ -9,7 +9,6 @@ banner_img: /image/图解HTTP/banner.jpg
 tags:
   - 基础体系
 categories: 笔记
-hide: true
 ---
 
 ## 第七章 确保Web安全的HTTPS

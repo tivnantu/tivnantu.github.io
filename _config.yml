@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: tivnan
-subtitle: "tivnan's code & develop blog"
-description: '这里是tivnan的开发、代码、学习、玩耍的个人空间'
-keywords: [后端, Java, 项目管理, 软件工程, 代码, code]
-author: tivnan
+title: tivnantu
+subtitle: tivnantu's blog
+description: 写写代码，写写博客
+keywords: code
+author: tivnantu
 language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://tivnantu.github.io
 root: /
 permalink: posts/:abbrlink.html
@@ -30,8 +30,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - google3e8bded176eafa05.html
-  - BingSiteAuth.xml
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -40,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -50,21 +48,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -84,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -93,8 +91,8 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
+include: []
+exclude: []
 ignore:
 
 # Extensions
@@ -105,10 +103,9 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: "git"
   repo: "git@github.com:tivnantu/tivnantu.github.io.git"
-  branch: 'master'
-
+  branch: "master"
 
 # hexo-neat压缩
 # 博文压缩
@@ -121,7 +118,7 @@ neat_html:
 neat_css:
   enable: true
   exclude:
-    - '**/*.min.css'
+    - "**/*.min.css"
 # 压缩js
 neat_js:
   enable: true
@@ -129,15 +126,9 @@ neat_js:
   output:
   compress:
   exclude:
-    - '**/*.min.js'
-    - '**/jquery.fancybox.pack.js'
-    - '**/index.js'
-
-# 站点地图
-sitemap:
-  path: googlesitemap
+    - "*.min.js"
 
 # 永久链接生成
 abbrlink:
-    alg: crc32   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex
+  alg: crc32 #算法： crc16(default) and crc32
+  rep: hex #进制： dec(default) and hex
